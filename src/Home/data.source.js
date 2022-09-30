@@ -1,210 +1,442 @@
 import React from 'react';
 export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper' },
+  wrapper: { className: 'header3 home-page-wrapper jzih1dpqqrg-editor_css' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header3-logo',
+    className: 'header3-logo jzjgnya1gmn-editor_css',
     children:
-      'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
+      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ',
   },
   Menu: {
     className: 'header3-menu',
     children: [
       {
-        name: 'item0',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>网站首页</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>公司简介</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
         name: 'item2',
         className: 'header3-item',
         children: {
           href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>回收项目</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item3',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>成功案例</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item4',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <p>新闻咨询</p>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item5',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>在线留言</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item6',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>联系我们</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
+          children: [{ children: <p>帮助中心</p>, name: 'text' }],
         },
       },
     ],
   },
   mobileMenu: { className: 'header3-mobile-menu' },
 };
-export const Banner10DataSource = {
-  wrapper: { className: 'banner1' },
-  BannerAnim: {
+export const Banner50DataSource = {
+  wrapper: { className: 'home-page-wrapper banner5' },
+  page: { className: 'home-page banner5-page' },
+  childWrapper: {
+    className: 'banner5-title-wrapper l8nun67oiy6-editor_css',
     children: [
       {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg0' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'title',
+        children: <p>某某家具租赁</p>,
+        className: 'banner5-title',
       },
       {
-        name: 'elem1',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        name: 'explain',
+        className: 'banner5-explain',
+        children: <p>承接各类家具租赁/优质的服务/满意的价格</p>,
       },
       {
-        name: 'elem2',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
+        name: 'content',
+        className: 'banner5-content',
+        children: (
+          <p>
+            各种家具租赁，桌椅租赁，沙发租赁，沙发凳租赁，遮阳伞租赁，茶几租赁，会展家具租赁，活动庆典桌椅租赁，吧桌吧椅租赁，办公家具租赁，婚庆家具租赁，宴会桌椅租赁，户外家具租赁，贵宾沙发，贵宾椅租赁，用于国家政府大型活动，事业单位办公桌椅，接待国家贵宾领导座谈家具租赁，高端重要会议家具租赁，品牌推广，走秀活动使用的物品，品质新，品种全，应有尽有，快快联系我们吧！
+          </p>
+        ),
+      },
+      {
+        name: 'button',
+        className: 'banner5-button-wrapper',
+        children: {
+          href: '#footer1',
+          className: 'banner5-button l8nuy61plnm-editor_css',
+          type: 'primary',
+          children: <span>联系我们</span>,
+        },
+      },
+    ],
+  },
+  image: {
+    className: 'banner5-image l8num67jhap-editor_css',
+    children:
+      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+  },
+};
+export const Feature60DataSource = {
+  wrapper: { className: 'home-page-wrapper feature6-wrapper' },
+  OverPack: { className: 'home-page feature6', playScale: 0.3 },
+  Carousel: {
+    className: 'feature6-content',
+    dots: false,
+    wrapper: { className: 'feature6-content-wrapper' },
+    titleWrapper: {
+      className: 'feature6-title-wrapper',
+      barWrapper: {
+        className: 'feature6-title-bar-wrapper',
+        children: { className: 'feature6-title-bar' },
+      },
+      title: { className: 'feature6-title' },
+    },
+    children: [
+      {
+        title: { className: 'feature6-title-text', children: '服务指标' },
+        className: 'feature6-item',
+        name: 'block0',
+        children: [
+          {
+            md: 8,
+            xs: 24,
+            className: 'feature6-number-wrapper',
+            name: 'child0',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '万' },
+              toText: true,
+              children: '116',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>大型会展服务次数</span>,
+            },
+          },
+          {
+            md: 8,
+            xs: 24,
+            className: 'feature6-number-wrapper',
+            name: 'child1',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '亿' },
+              toText: true,
+              children: '1.17',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>酒桌宴席服务次数</span>,
+            },
+          },
+          {
+            md: 8,
+            xs: 24,
+            className: 'feature6-number-wrapper',
+            name: 'child2',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '亿' },
+              toText: true,
+              children: '2.10',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>会议办公服务次数</span>,
+            },
+          },
+        ],
+      },
+      {
         title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+          className: 'feature6-title-text',
+          children: <span>服务行业</span>,
         },
-        content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        className: 'feature6-item',
+        name: 'block1',
+        children: [
+          {
+            md: 8,
+            xs: 24,
+            name: 'child0',
+            className: 'feature6-number-wrapper',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '万' },
+              toText: true,
+              children: '5.65',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>金融办公类</span>,
+            },
+          },
+          {
+            md: 8,
+            xs: 24,
+            name: 'child1',
+            className: 'feature6-number-wrapper',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '亿' },
+              toText: true,
+              children: '3.18',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>科技展览类</span>,
+            },
+          },
+          {
+            md: 8,
+            xs: 24,
+            name: 'child2',
+            className: 'feature6-number-wrapper',
+            number: {
+              className: 'feature6-number',
+              unit: { className: 'feature6-unit', children: '亿' },
+              toText: true,
+              children: '1.82',
+            },
+            children: {
+              className: 'feature6-text',
+              children: <span>户外宴席类</span>,
+            },
+          },
+        ],
       },
     ],
   },
 };
-export const Content00DataSource = {
+export const Feature70DataSource = {
+  wrapper: { className: 'home-page-wrapper feature7-wrapper' },
+  page: { className: 'home-page feature7' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'feature7-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        className: 'feature7-title-h1',
+        children: <span>租赁服务类型</span>,
+      },
+      {
+        name: 'content',
+        className: 'feature7-title-content',
+        children: <span>多达100+种租赁家具任你挑</span>,
+      },
+    ],
+  },
+  blockWrapper: {
+    className: 'feature7-block-wrapper',
+    gutter: 24,
+    children: [
+      {
+        md: 6,
+        xs: 24,
+        name: 'block0',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>桌椅租赁类</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  课桌椅、宴会桌椅、培训桌椅、洽谈桌椅、会议桌椅、酒吧桌椅、户外折叠桌椅、写字桌、古典桌椅等
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block1',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>沙发茶几租赁类</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  单人沙发、双人沙发、沙发凳子、沙发转桌、高端沙发、转角沙发、茶几、多人沙发等
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block2',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>办公家具租赁类</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  文件柜、前台桌、保险柜、活动柜、铁皮柜、储物柜、员工位、老板台等
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block3',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>综合展会用品类</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  折叠屏风、挂衣架、穿衣镜、演讲台、遮阳伞、隔离带、户外休息床、帐篷等
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block4',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>氛围器具类</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  LED小彩灯、宴会照明灯、发光吧台、KTV节奏灯、展会舞台灯、蹦迪闪光灯、闪光魔法棒等
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block5',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>常用租赁类型</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <p>
+                  宴会桌椅、培训桌椅、会议桌椅、各类沙发、老板台、折叠屏风、遮阳伞、帐篷、LED小彩灯、舞台灯
+                </p>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block6',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title',
+              children: <span>其他类型</span>,
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: <p>指示牌、广告牌、桌布桌裙、垃圾桶、铁马栏杆等</p>,
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+export const Feature00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
   page: { className: 'home-page content0' },
   OverPack: { playScale: 0.3, className: '' },
@@ -213,51 +445,40 @@ export const Content00DataSource = {
     children: [
       {
         name: 'title',
-        children: (
-          <span>
-            <p>回收项目</p>
-          </span>
-        ),
+        children: <span>租赁服务方案</span>,
       },
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper k9h76g7v2q-editor_css',
+    className: 'content0-block-wrapper',
     children: [
       {
         name: 'block0',
-        className: 'content0-block',
-        md: 8,
+        className: 'jzjn8afnsxb-editor_css content0-block',
+        md: 6,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: 'content0-block-item jzjgrrupf2c-editor_css',
           children: [
             {
               name: 'image',
-              className: 'content0-block-icon',
+              className: 'content0-block-icon jzjgrlz134-editor_css',
               children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
             },
             {
               name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>电梯回收</p>
-                    </span>
-                  </span>
-                </span>
-              ),
+              className: 'content0-block-title jzj8xt5kgv7-editor_css',
+              children: '一站式业务接入',
             },
             {
               name: 'content',
               children: (
-                <span>
-                  <p>Elevator recovery</p>
-                </span>
+                <p>
+                  沟通您的需求，为您推荐全套式家具搭配方案，省时省力，效率翻倍
+                </p>
               ),
+              className: 'jzj8z9sya9-editor_css',
             },
           ],
         },
@@ -265,36 +486,28 @@ export const Content00DataSource = {
       {
         name: 'block1',
         className: 'content0-block',
-        md: 8,
+        md: 6,
         xs: 24,
         children: {
           className: 'content0-block-item',
           children: [
             {
               name: 'image',
-              className: 'content0-block-icon',
+              className: 'content0-block-icon jzjncn210ql-editor_css',
               children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
             },
             {
               name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <p>铁铝铜回收</p>
-                </span>
-              ),
+              className: 'content0-block-title jzjne54fwqm-editor_css',
+              children: <span>风险监控</span>,
             },
             {
               name: 'content',
               children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Iron copper recovery</p>
-                    </span>
-                  </span>
-                </span>
+                <p>
+                  在所有需求配置环节事前，全面勘查目标场地和环境影响，拥有风险控制和质量控制能力
+                </p>
               ),
             },
           ],
@@ -303,104 +516,58 @@ export const Content00DataSource = {
       {
         name: 'block2',
         className: 'content0-block',
-        md: 8,
+        md: 6,
         xs: 24,
         children: {
           className: 'content0-block-item',
           children: [
             {
               name: 'image',
-              className: 'content0-block-icon',
+              className: 'content0-block-icon jzjndq0dueg-editor_css',
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
             },
             {
               name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <p>不锈钢回收</p>
-                </span>
-              ),
+              className: 'content0-block-title jzjne24af8c-editor_css',
+              children: <span>工作实施效率</span>,
             },
             {
               name: 'content',
               children: (
-                <span>
-                  <p>Stainless steel recovery</p>
-                </span>
+                <p>
+                  沉淀租赁接入效率和实施工作效率数据，充分利用经验提供实施效率
+                </p>
               ),
             },
           ],
         },
       },
       {
-        name: 'block3',
+        name: 'block~jzjn87bmyc7',
         className: 'content0-block',
-        md: 8,
+        md: 6,
         xs: 24,
         children: {
           className: 'content0-block-item',
           children: [
             {
               name: 'image',
-              className: 'content0-block-icon',
+              className: 'content0-block-icon jzjndsyw8sf-editor_css',
               children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
             },
             {
               name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <span>
-                    <p>工程拆除</p>
-                  </span>
-                </span>
-              ),
+              className: 'content0-block-title jzjndw5oerk-editor_css',
+              children: <span>服务精神</span>,
             },
             {
               name: 'content',
               children: (
-                <span>
-                  <p>Engineering dismantling</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block4',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <span>
-                  <span>
-                    <p>中央空调回收</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              children: (
-                <span>
-                  <p>Air conditioning recovery</p>
-                </span>
+                <p>
+                  积极处理工作期间问题，稳定工作顺利进行。妥善结束工作，回收场地器具。闭环工作流程
+                </p>
               ),
             },
           ],
@@ -409,6 +576,210 @@ export const Content00DataSource = {
     ],
   },
 };
+export const Feature80DataSource = {
+  wrapper: { className: 'home-page-wrapper feature8-wrapper' },
+  page: { className: 'home-page feature8' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'feature8-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        className: 'feature8-title-h1',
+        children: <span>租赁流程</span>,
+      },
+      {
+        name: 'content',
+        className: 'feature8-title-content',
+        children: '流程简单清晰，快速响应需求',
+      },
+    ],
+  },
+  childWrapper: {
+    className: 'feature8-button-wrapper',
+    children: [
+      {
+        name: 'button',
+        className: 'feature8-button',
+        children: {
+          href: '#footer1',
+          children: '立即租赁',
+        },
+      },
+    ],
+  },
+  Carousel: {
+    dots: false,
+    className: 'feature8-carousel',
+    wrapper: { className: 'feature8-block-wrapper' },
+    children: {
+      className: 'feature8-block',
+      titleWrapper: {
+        className: 'feature8-carousel-title-wrapper',
+        title: { className: 'feature8-carousel-title' },
+      },
+      children: [
+        {
+          name: 'block0',
+          className: 'feature8-block-row',
+          gutter: 120,
+          title: {
+            className: 'feature8-carousel-title-block',
+            children: '平台自主训练流程',
+          },
+          children: [
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child0',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: (
+                      <p>
+                        添加下方客服微信，沟通业务租赁需求，选择租赁类型和数量
+                      </p>
+                    ),
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child1',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '定制方案',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: (
+                      <p>
+                        租赁公司对接人与您一起确定
+                        家具配置方案，以及该方案的报价
+                      </p>
+                    ),
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child2',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '勘查与设计',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: (
+                      <p>租赁公司安排工作人员勘查目标场地，布置家具安放方案</p>
+                    ),
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child3',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '合同与实施',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: (
+                      <p>
+                        双方签订合同。
+                        <br />
+                        客户支付定金及租金，家具租赁公司人员配送家具，实施安放工作
+                      </p>
+                    ),
+                  },
+                ],
+              },
+            },
+          ],
+        },
+      ],
+    },
+  },
+};
+
 export const Content50DataSource = {
   wrapper: { className: 'home-page-wrapper content5-wrapper' },
   page: { className: 'home-page content5' },
@@ -442,7 +813,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '广州酒家户外拓展场地布置' },
         },
       },
       {
@@ -456,7 +827,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: 'BYD' },
         },
       },
       {
@@ -470,7 +841,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '广州酒家户外拓展场地布置' },
         },
       },
       {
@@ -484,7 +855,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '华为手机新品发布会展' },
         },
       },
       {
@@ -498,7 +869,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '广州酒家户外拓展场地布置' },
         },
       },
       {
@@ -512,7 +883,7 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '华为手机新品发布会展' },
         },
       },
       {
@@ -526,7 +897,7 @@ export const Content50DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          content: { children: '广州酒家户外拓展场地布置' },
         },
       },
       {
@@ -540,301 +911,16 @@ export const Content50DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          content: { children: '华为手机新品发布会展' },
         },
       },
     ],
   },
 };
-export const Content30DataSource = {
-  wrapper: { className: 'home-page-wrapper content3-wrapper' },
-  page: { className: 'home-page content3' },
-  OverPack: { playScale: 0.3 },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>公司简介</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: (
-          <span>
-            <span>
-              <span>
-                <h2>苏州子浩物资回收有限公司</h2>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-    ],
-  },
-  block: {
-    className: 'content3-block-wrapper',
-    children: [
-      {
-        name: 'block0',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <p>回收项目</p>
-                  </span>
-                </span>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content',
-            children: (
-              <span>
-                <p>
-                  电梯回收，中央空调回收，废旧物资回收，机械设备回收，厨房、宾馆设备等。
-                </p>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block1',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <p>企业精神</p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content',
-            children: (
-              <span>
-                <p>开拓进取、锐意创新、刻意求真、崇尚完美。</p>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <p>服务宗旨</p>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content',
-            children: (
-              <span>
-                <p>价格合理、信守承诺、安全快捷 、高效。</p>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block3',
-        className: 'content3-block',
-        md: 12,
-        xs: 24,
-        children: {
-          icon: {
-            className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
-          },
-          textWrapper: { className: 'content3-text' },
-          title: {
-            className: 'content3-title',
-            children: (
-              <span>
-                <span>
-                  <p>企业原则</p>
-                </span>
-              </span>
-            ),
-          },
-          content: {
-            className: 'content3-content',
-            children: (
-              <span>
-                <p>
-                  讲诚信、以信誉求发展。
-                  议、指导。前进中的望月将会在不断变化的各种客观条件下，把握市场动向，熟悉市场环境，完善的饰后服务，让客户真正感受到望月，热情、真诚、诚信的全方位服务。
-                </p>
-              </span>
-            ),
-          },
-        },
-      },
-    ],
-  },
-};
-export const Feature50DataSource = {
-  wrapper: { className: 'home-page-wrapper content7-wrapper' },
-  page: { className: 'home-page content7' },
-  OverPack: {},
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>新闻资讯</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-    ],
-  },
-  tabsWrapper: { className: 'content7-tabs-wrapper' },
-  block: {
-    children: [
-      {
-        name: 'block0',
-        tag: {
-          className: 'content7-tag',
-          text: {
-            children: (
-              <span>
-                <p>公司新闻</p>
-              </span>
-            ),
-            className: 'content7-tag-name',
-          },
-          icon: { children: 'mobile' },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
-          img: {
-            className: 'content7-img',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
-            md: 10,
-            xs: 24,
-          },
-        },
-      },
-      {
-        name: 'block1',
-        tag: {
-          className: 'content7-tag',
-          icon: { children: 'tablet' },
-          text: {
-            className: 'content7-tag-name',
-            children: (
-              <span>
-                <p>行业新闻</p>
-              </span>
-            ),
-          },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
-          img: {
-            className: 'content7-img',
-            md: 10,
-            xs: 24,
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
-          },
-        },
-      },
-    ],
-  },
-};
+
 export const Footer10DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
-  OverPack: { className: 'footer1', playScale: 0.2 },
+  OverPack: { className: 'footer1', id: 'footer1', playScale: 0.2 },
   block: {
     className: 'home-page',
     gutter: 0,
@@ -842,85 +928,19 @@ export const Footer10DataSource = {
       {
         name: 'block0',
         xs: 24,
-        md: 6,
+        md: 8,
         className: 'block',
         title: {
-          className: 'logo',
+          className: 'logo jzl0qcpyjra-editor_css',
           children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*GzZ-QqkpH4AAAAAAAAAAAABkARQnAQ',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
-            },
-          ],
-        },
-      },
-      {
-        name: 'block1',
-        xs: 24,
-        md: 6,
-        className: 'block',
-        title: {
-          children: (
-            <span>
-              <p>回收项目</p>
-            </span>
-          ),
-        },
-        childWrapper: {
-          children: [
-            {
-              name: 'link0',
-              href: '#',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>电梯回收</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'link1',
-              href: '#',
-              children: (
-                <span>
-                  <p>铁铝铜回收</p>
-                </span>
-              ),
-            },
-            {
-              name: 'link2',
-              href: '#',
-              children: (
-                <span>
-                  <p>不锈钢回收</p>
-                </span>
-              ),
-            },
-            {
-              name: 'link3',
-              href: '#',
-              children: (
-                <span>
-                  <p>工程拆除</p>
-                </span>
-              ),
-            },
-            {
-              name: 'link4',
-              href: '#',
-              children: (
-                <span>
-                  <p>中央空调回收</p>
-                </span>
-              ),
+              children: <span>某某某租赁公司</span>,
             },
           ],
         },
@@ -928,38 +948,50 @@ export const Footer10DataSource = {
       {
         name: 'block2',
         xs: 24,
-        md: 6,
+        md: 8,
         className: 'block',
-        title: { children: '关于' },
+        title: { children: '联系我们' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
+            {
+              name: 'image~jzl0tcm4f1d',
+              className: '',
+              children: (
+                <img
+                  src={require('./images/qrcode.jpeg')}
+                  width="160px"
+                  alt="img"
+                />
+              ),
+            },
+            {
+              href: '#',
+              name: 'link0',
+              children: <p>微信扫描二维码添加客服微信</p>,
+              className: 'jzl0u1bko6-editor_css',
+            },
           ],
         },
       },
       {
         name: 'block3',
         xs: 24,
-        md: 6,
+        md: 8,
         className: 'block',
         title: {
-          children: (
-            <span>
-              <span>
-                <p>关注我们</p>
-              </span>
-            </span>
-          ),
-          className: 'k9h7k134cu-editor_css',
+          children: '合作伙伴',
         },
         childWrapper: {
           children: [
             {
-              name: 'image~k9h7il8htc6',
-              className: 'k9h7irl6jgj-editor_css',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/HzvPfCGNCtvGrdk.png',
+              href: '#',
+              name: 'link0',
+              children: '某某灯具公司',
+            },
+            {
+              href: '#',
+              name: 'link1',
+              children: '某某户外公司',
             },
           ],
         },
@@ -970,11 +1002,6 @@ export const Footer10DataSource = {
   copyrightPage: { className: 'home-page' },
   copyright: {
     className: 'copyright',
-    children: (
-      <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
-      </span>
-    ),
+    children: <p>Copyright © 2022 某某租赁公司</p>,
   },
 };

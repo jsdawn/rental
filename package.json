@@ -5,6 +5,7 @@
   "homepage": "./",
   "dependencies": {
     "@ant-design/compatible": "^1.0.2",
+    "@ant-design/icons": "^4.7.0",
     "antd": "^4.0.1",
     "enquire-js": "^0.2.1",
     "rc-banner-anim": "^2.2.2",
@@ -18,7 +19,6 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
   "eslintConfig": {

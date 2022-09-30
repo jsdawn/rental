@@ -4,22 +4,20 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
 import Nav3 from './Nav3';
-import Banner5 from './Banner5';
-import Feature6 from './Feature6';
-import Feature7 from './Feature7';
-import Feature0 from './Feature0';
-import Feature8 from './Feature8';
+import Banner1 from './Banner1';
+import Content0 from './Content0';
 import Content5 from './Content5';
+import Content3 from './Content3';
+import Feature5 from './Feature5';
 import Footer1 from './Footer1';
 
 import {
   Nav30DataSource,
-  Banner50DataSource,
-  Feature60DataSource,
-  Feature70DataSource,
-  Feature00DataSource,
-  Feature80DataSource,
+  Banner10DataSource,
+  Content00DataSource,
   Content50DataSource,
+  Content30DataSource,
+  Feature50DataSource,
   Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -29,7 +27,7 @@ enquireScreen((b) => {
   isMobile = b;
 });
 
-const { location = {} } = typeof window !== 'undefined' ? window : {};
+const { location } = window;
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -66,28 +64,16 @@ export default class Home extends React.Component {
         dataSource={Nav30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner5
-        id="Banner5_0"
-        key="Banner5_0"
-        dataSource={Banner50DataSource}
+      <Banner1
+        id="Banner1_0"
+        key="Banner1_0"
+        dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature6
-        id="Feature6_0"
-        key="Feature6_0"
-        dataSource={Feature60DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature7
-        id="Feature7_0"
-        key="Feature7_0"
-        dataSource={Feature70DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature0
-        id="Feature0_0"
-        key="Feature0_0"
-        dataSource={Feature00DataSource}
+      <Content0
+        id="Content0_0"
+        key="Content0_0"
+        dataSource={Content00DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content5
@@ -96,10 +82,16 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature8
-        id="Feature8_0"
-        key="Feature8_0"
-        dataSource={Feature80DataSource}
+      <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature5
+        id="Feature5_0"
+        key="Feature5_0"
+        dataSource={Feature50DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer1
