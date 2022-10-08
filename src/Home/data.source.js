@@ -936,19 +936,16 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: '#footer1',
               name: 'link0',
               children: '请拨打电话以下电话号码联系我们：',
               className: 'jzl0u1bko6-editor_css',
             },
             {
-              href: '#footer1',
               name: 'link1',
               children: '王先生：13609600958',
               className: 'jzl0u1bko6-editor_css',
             },
             {
-              href: '#footer1',
               name: 'link2',
               children: '莫小姐：13549382605',
               className: 'jzl0u1bko6-editor_css',
@@ -967,12 +964,10 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: '#',
               name: 'link0',
               children: '该网站仅用于产品展示，不做商业用途',
             },
             {
-              href: '#',
               name: 'link1',
               children: '部分信息源于网络，如有侵权请联系删除',
             },
