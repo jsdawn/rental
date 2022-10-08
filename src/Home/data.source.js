@@ -14,8 +14,8 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '#',
-          children: [{ children: <p>帮助中心</p>, name: 'text' }],
+          href: '#footer1',
+          children: [{ children: '联系方式', name: 'text' }],
         },
       },
     ],
@@ -30,7 +30,7 @@ export const Banner50DataSource = {
     children: [
       {
         name: 'title',
-        children: <p>某某家具租赁</p>,
+        children: <p>广州玖润家具租赁</p>,
         className: 'banner5-title',
       },
       {
@@ -61,8 +61,8 @@ export const Banner50DataSource = {
   },
   image: {
     className: 'banner5-image l8num67jhap-editor_css',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+    children: require('./images/home-bg1.png'),
+    // 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
   },
 };
 export const Feature60DataSource = {
@@ -789,11 +789,7 @@ export const Content50DataSource = {
     children: [
       {
         name: 'title',
-        children: (
-          <span>
-            <p>成功案例</p>
-          </span>
-        ),
+        children: '成功案例',
         className: 'title-h1',
       },
     ],
@@ -810,10 +806,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: require('./images/第十六届政务论坛现场领导座席.jpg'),
           },
-          content: { children: '广州酒家户外拓展场地布置' },
+          content: { children: '第十六届政务论坛现场领导座席' },
         },
       },
       {
@@ -824,10 +819,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: require('./images/公司私宴.jpg'),
           },
-          content: { children: 'BYD' },
+          content: { children: '公司私宴' },
         },
       },
       {
@@ -838,10 +832,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: require('./images/广汽智能科技大会——深圳站.jpg'),
           },
-          content: { children: '广州酒家户外拓展场地布置' },
+          content: { children: '广汽智能科技大会——深圳站' },
         },
       },
       {
@@ -852,10 +845,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: require('./images/广州恒大足球场动工仪式.jpg'),
           },
-          content: { children: '华为手机新品发布会展' },
+          content: { children: '广州恒大足球场动工仪式' },
         },
       },
       {
@@ -866,10 +858,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: require('./images/广州塔平台某服装品牌走秀.jpg'),
           },
-          content: { children: '广州酒家户外拓展场地布置' },
+          content: { children: '广州塔平台某服装品牌走秀' },
         },
       },
       {
@@ -880,10 +871,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: require('./images/海珠区第二届职业技能大赛.jpg'),
           },
-          content: { children: '华为手机新品发布会展' },
+          content: { children: '海珠区第二届职业技能大赛' },
         },
       },
       {
@@ -894,10 +884,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+            children: require('./images/海珠区广交会展馆金交会布置现场.jpg'),
           },
-          content: { children: '广州酒家户外拓展场地布置' },
+          content: { children: '海珠区广交会展馆金交会布置现场' },
         },
       },
       {
@@ -908,10 +897,9 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+            children: require('./images/海珠区洲际酒店房地产行业论坛全场沙发布置.jpg'),
           },
-          content: { children: '华为手机新品发布会展' },
+          content: { children: '洲际酒店房地产行业论坛全场沙发布置' },
         },
       },
     ],
@@ -940,7 +928,7 @@ export const Footer10DataSource = {
           children: [
             {
               name: 'content0',
-              children: <span>某某某租赁公司</span>,
+              children: <span>广州玖润家具租赁有限公司</span>,
             },
           ],
         },
@@ -954,20 +942,21 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: 'image~jzl0tcm4f1d',
-              className: '',
-              children: (
-                <img
-                  src={require('./images/qrcode.jpeg')}
-                  width="160px"
-                  alt="img"
-                />
-              ),
+              href: '#footer1',
+              name: 'link0',
+              children: '请拨打电话以下电话号码联系我们：',
+              className: 'jzl0u1bko6-editor_css',
             },
             {
-              href: '#',
-              name: 'link0',
-              children: <p>微信扫描二维码添加客服微信</p>,
+              href: '#footer1',
+              name: 'link1',
+              children: '王先生：13609600958',
+              className: 'jzl0u1bko6-editor_css',
+            },
+            {
+              href: '#footer1',
+              name: 'link2',
+              children: '莫小姐：13549382605',
               className: 'jzl0u1bko6-editor_css',
             },
           ],
@@ -979,19 +968,19 @@ export const Footer10DataSource = {
         md: 8,
         className: 'block',
         title: {
-          children: '合作伙伴',
+          children: '免责声明',
         },
         childWrapper: {
           children: [
             {
               href: '#',
               name: 'link0',
-              children: '某某灯具公司',
+              children: '该网站仅用于产品展示，不做商业用途',
             },
             {
               href: '#',
               name: 'link1',
-              children: '某某户外公司',
+              children: '部分信息源于网络，如有侵权请联系删除',
             },
           ],
         },
@@ -1002,6 +991,6 @@ export const Footer10DataSource = {
   copyrightPage: { className: 'home-page' },
   copyright: {
     className: 'copyright',
-    children: <p>Copyright © 2022 某某租赁公司</p>,
+    children: <p>Copyright © 2022 广州玖润家具租赁有限公司</p>,
   },
 };
