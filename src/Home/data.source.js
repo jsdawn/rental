@@ -4,8 +4,7 @@ export const Nav30DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header3-logo jzjgnya1gmn-editor_css',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ',
+    children: require('./images/logo.png'),
   },
   Menu: {
     className: 'header3-menu',
@@ -43,7 +42,7 @@ export const Banner50DataSource = {
         className: 'banner5-content',
         children: (
           <p>
-            各种家具租赁，桌椅租赁，沙发租赁，沙发凳租赁，遮阳伞租赁，茶几租赁，会展家具租赁，活动庆典桌椅租赁，吧桌吧椅租赁，办公家具租赁，婚庆家具租赁，宴会桌椅租赁，户外家具租赁，贵宾沙发，贵宾椅租赁，用于国家政府大型活动，事业单位办公桌椅，接待国家贵宾领导座谈家具租赁，高端重要会议家具租赁，品牌推广，走秀活动使用的物品，品质新，品种全，应有尽有，快快联系我们吧！
+            各种家具租赁，桌椅租赁，沙发租赁，遮阳伞租赁，茶几租赁，会展家具租赁，活动桌椅租赁，吧桌吧椅租赁，办公家具租赁，婚庆家具租赁，宴会桌椅租赁，户外家具租赁，大型活动，事业单位办公桌椅，高端重要会议家具租赁，品牌推广，走秀活动使用的物品，应有尽有，快快联系我们吧！
           </p>
         ),
       },
@@ -93,9 +92,9 @@ export const Feature60DataSource = {
             name: 'child0',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '万' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '116',
+              children: '6322',
             },
             children: {
               className: 'feature6-text',
@@ -109,9 +108,9 @@ export const Feature60DataSource = {
             name: 'child1',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '1.17',
+              children: '1937',
             },
             children: {
               className: 'feature6-text',
@@ -125,9 +124,9 @@ export const Feature60DataSource = {
             name: 'child2',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '2.10',
+              children: '830',
             },
             children: {
               className: 'feature6-text',
@@ -151,9 +150,9 @@ export const Feature60DataSource = {
             className: 'feature6-number-wrapper',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '万' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '5.65',
+              children: '3500+',
             },
             children: {
               className: 'feature6-text',
@@ -167,9 +166,9 @@ export const Feature60DataSource = {
             className: 'feature6-number-wrapper',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '3.18',
+              children: '2000',
             },
             children: {
               className: 'feature6-text',
@@ -183,9 +182,9 @@ export const Feature60DataSource = {
             className: 'feature6-number-wrapper',
             number: {
               className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
+              unit: { className: 'feature6-unit', children: '+' },
               toText: true,
-              children: '1.82',
+              children: '900',
             },
             children: {
               className: 'feature6-text',
@@ -463,8 +462,7 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon jzjgrlz134-editor_css',
-              children:
-                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
+              children: <img src={require('./images/flow1.png')} alt="" />,
             },
             {
               name: 'title',
@@ -494,8 +492,7 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon jzjncn210ql-editor_css',
-              children:
-                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
+              children: <img src={require('./images/flow2.png')} alt="" />,
             },
             {
               name: 'title',
@@ -524,8 +521,7 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon jzjndq0dueg-editor_css',
-              children:
-                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
+              children: <img src={require('./images/flow3.png')} alt="" />,
             },
             {
               name: 'title',
@@ -554,8 +550,7 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon jzjndsyw8sf-editor_css',
-              children:
-                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*CTp8T7RT-VkAAAAAAAAAAABkARQnAQ',
+              children: <img src={require('./images/flow4.png')} alt="" />,
             },
             {
               name: 'title',
@@ -603,7 +598,7 @@ export const Feature80DataSource = {
         className: 'feature8-button',
         children: {
           href: '#footer1',
-          children: '立即租赁',
+          children: '拨打下方电话联系我们',
         },
       },
     ],
@@ -920,8 +915,7 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo jzl0qcpyjra-editor_css',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*GzZ-QqkpH4AAAAAAAAAAAABkARQnAQ',
+          children: <img src={require('./images/logoff.png')} alt="" />,
         },
         childWrapper: {
           className: 'slogan',

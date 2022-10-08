@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "51c8290bcc6fb8893740",
-    "url": "./static/css/main.81830087.chunk.css"
+    "revision": "87f2b3d7e85c2e0d5b03",
+    "url": "./static/css/main.ac106d66.chunk.css"
   },
   {
-    "revision": "51c8290bcc6fb8893740",
-    "url": "./static/js/main.51c8290b.chunk.js"
+    "revision": "87f2b3d7e85c2e0d5b03",
+    "url": "./static/js/main.87f2b3d7.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
     "url": "./static/js/runtime~main.8c97409f.js"
   },
   {
-    "revision": "efe3bad709ed4e6c245e",
+    "revision": "fd8bbbe68f1f94f2e978",
     "url": "./static/css/2.837d39fb.chunk.css"
   },
   {
-    "revision": "efe3bad709ed4e6c245e",
-    "url": "./static/js/2.efe3bad7.chunk.js"
+    "revision": "fd8bbbe68f1f94f2e978",
+    "url": "./static/js/2.fd8bbbe6.chunk.js"
+  },
+  {
+    "revision": "3208595921555f45fa2652f895e36eb9",
+    "url": "./static/media/home-bg1.32085959.png"
   },
   {
     "revision": "201c631309f078e8c7c9a08f35a1a335",
@@ -52,7 +56,11 @@ self.__precacheManifest = [
     "url": "./static/media/海珠区洲际酒店房地产行业论坛全场沙发布置.7e58598f.jpg"
   },
   {
-    "revision": "f8ffbb24e39b9c53c6aa38da2bb88d7c",
+    "revision": "43fda4ee18a5ea150f798a9754e7b69c",
+    "url": "./static/media/logoff.43fda4ee.png"
+  },
+  {
+    "revision": "9a633c60b80c059dfdb387489ac8a699",
     "url": "./index.html"
   }
 ];
