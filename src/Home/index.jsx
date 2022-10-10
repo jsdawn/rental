@@ -108,6 +108,11 @@ export default class Home extends React.Component {
         dataSource={Footer10DataSource}
         isMobile={this.state.isMobile}
       />,
+      <img
+        className="visitor-badge"
+        src="https://visitor-badge.laobi.icu/badge?page_id=page.jsdawn.rental"
+        alt="visitor.badge"
+      />,
     ];
     return (
       <div
